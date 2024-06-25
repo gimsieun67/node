@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li,
+ul {
+  list-style: none;
+}
+a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+.container {
+  width: 550px;
+  margin: 0 auto;
+  width: 500px;
+  border: solid 1px black;
+  margin-top: 30px;
+  /* display: none; */
+}
+.spending {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 60px;
+  position: relative;
+}
+
+.exit {
+  /* color: red; */
+  font-size: 35px;
+  margin-right: 60%;
+}
+nav {
+  margin: 0 auto;
+  color: gainsboro;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid silver;
+  justify-content: space-evenly;
+}
+.exit {
+  margin-top: 10px;
+}
+.top_text {
+  width: 700px;
+  justify-content: space-around;
+  gap: 100px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.main {
+  width: 400px;
+  justify-content: space-around;
+  line-height: 55px;
+  background-color: #fbfcf8;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.history {
+  line-height: 150px;
+  width: 500px;
+  text-align: center;
+}
+.history > h3 {
+  margin-right: 70%;
+}
+.history > p {
+  margin-bottom: 60px;
+  margin-right: 25px;
+  color: silver;
+  font-weight: 700;
+}
+button {
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff7900;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 35px;
+}
+
+/* 지갑 */
+
+.wallet {
+  display: none;
+  line-height: 40%;
+}
+.main2 {
+  justify-content: space-around;
+}
+section > h3 {
+  padding-right: 20px;
+}
+section {
+  width: 500px;
+  line-height: 45px;
+}
+.check {
+  justify-content: space-around;
+  text-align: center;
+  gap: 40px;
+}
+.walletAddress > input {
+  width: 400px;
+  margin-left: 45px;
+}
+footer {
+  width: 500px;
+  margin-top: 30px;
+  line-height: 40px;
+  justify-content: space-around;
+}
+.check > div > a {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+}
+.main2,
+footer,
+section {
+  font-weight: 700;
+}
+.assetsText {
+  justify-content: space-around;
+  gap: 200px;
+}
+.assetsText > p {
+  color: gainsboro;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  background-color: gray;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+.main2,
+footer {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #f0f0f0;
+  margin-top: 30px;
+}
+.walletAddress > input {
+  margin-bottom: 50px;
+}
+.walletAddress > h3 {
+  margin-top: 20px;
+  padding-left: 10%;
+}
+.assetsBox {
+  margin-top: 30px;
+}
+footer {
+  margin-bottom: 10px;
+}
+/* 전송하기 */
+.sendBox {
+  width: 500px;
+  border: solid 1px black;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 80px;
+  font-weight: 700;
+  display: none;
+}
+.send {
+  justify-content: space-evenly;
+  margin-right: 25%;
+}
+.assetsAmount {
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+}
+.assetsAmount > p {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+  border: solid 1px black;
+  line-height: 35px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+.send > a {
+  font-size: 25px;
+}
+.send > li {
+  font-size: 20px;
+}
+.from > li:nth-child(1),
+.to > li:nth-child(1) {
+  color: gainsboro;
+}
+.from > li:nth-child(2),
+.to > li:nth-child(2) {
+  font-size: 25px;
+  color: white;
+}
+.cash > p,
+.amount > p {
+  margin-left: 30px;
+}
+.cash > select {
+  width: 90%;
+  height: 60px;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+}
+.amountInput {
+  position: relative;
+  /* padding-left: 100px; */
+}
+.amountInput > input {
+  width: 90%;
+  height: 60px;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  padding-right: 80%;
+}
+.amountInput > input::placeholder {
+  font-size: 30px;
+  padding-right: 85px;
+}
+.amountInput > span {
+  position: absolute;
+  left: 80%;
+  font-size: 23px;
+}
+.dataText {
+  line-height: 23px;
+  margin-left: 30px;
+}
+.dataText > p:nth-child(1) {
+  color: rgb(191, 191, 191);
+}
+.dataText > p:nth-child(2) {
+  font-size: 15px;
+}
+.sendBox > button {
+  margin-left: 10%;
+  margin-top: 80px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="exit"><</div>
+      <nav class="flex">
+        <a href="#" class="spendingBtn">스펜딩</a>
+        <a href="#" class="walletBtn">지갑</a>
+      </nav>
+        <div class="spending">
+          <header class="top_text flex">
+            <h3>자산</h3>
+            <p>❔</p>
+          </header>
+          
+          <div class="main flex">
+            <div class="assets">
+              <ul>
+                <li>🎹 WALK</li>
+                <li>🆘 GRND</li>
+                <li>👛 KLAY</li>
+                <li>🎫 oUSDT</li>
+              </ul>
+            </div>
+            <div class="values">
+              <p>0</p>
+              <p>0</p>
+              <p>0</p>
+              <p>0</p>
+            </div>
+          </div>
+          
+          <section class="history">
+            <h3>거래 내역</h3>
+            <p>아직 거래 내역이 없어요</p>
+          </section>
+          
+          <button>내보내기</button>
+        </div>
+        <!-- 지갑 -->
+        <div class="wallet">
+          <section>
+            <div class="walletAddress">
+              <h3>지갑 주소</h3>
+              <input type="text" />
+            </div>
+            <div class="check flex">
+              <div>
+                <a href="#" class="toSend">↙</a>
+                <p>스펜딩으로</p>
+              </div>
+              <div>
+                <a href="#">↗</a>
+                <p>바깥으로</p>
+              </div>
+              <div>
+                <a href="#">⇄</a>
+                <p>교환하기</p>
+              </div>
+            </div>  
+            <div class="assetsBox">
+              <div class="assetsText flex">
+                <h3>자산</h3>
+                <p>?</p>
+              </div>
+              <div class="main2 flex">
+                <div class="assets">
+                  <ul>
+                    <li>🎹 WALK</li>
+                    <li>🆘 GRND</li>
+                    <li>👛 KLAY</li>
+                    <li>🎫 oUSDT</li>
+                    <li>🅱 BORA</li>
+                  </ul>
+                </div>
+                <div class="values">
+                  <p>0</p>
+                  <p>0</p>
+                  <p>0</p>
+                  <p>0</p>
+                  <p>0</p>
+                </div>
+              </div>
+            </section>
+            <footer class="flex">
+              <div class="footerAssets">
+                <ul>
+                  <li>👟 신발</li>
+                  <li>🎫 기타</li>
+                </ul>
+              </div>
+              <div class="footerValues">
+                <p>0</p>
+                <p>0</p>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="sendBox">
+          <ul class="send flex">
+            <a href="#" class="back"><</a>
+            <li>전송하기</li>
+          </ul>
+          <div class="assetsAmount flex">
+            <ul class="from">
+              <li>From</li>
+              <li>지갑</li>
+            </ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+          <p>⇄</p>
+          <ul class="to">
+            <li>to</li>
+            <li>스펜딩</li>
+          </ul>
+          </div>
+
+          <div class="data">
+            <div class="cash">
+              <p>자산</p>
+              <select name="kaly">
+                <option value="kaly">👛 KLAY</option>
+              </select>
+            </div>
+            <div class="amount">
+            <p>액수</p>
+            <div class="amountInput">
+              <input type="text" placeholder="0">
+              <span>Max</span>
+            </div>
+            </div>
+          </div>
+          <div class="dataText">
+            <p>출금 가능 금액 0.914272 KLAY</p>
+            <p>수수료 0.5 KALY</p>
+          </div>
+          <button>전송하기</button>
+        </div>
+        <script src="script.js"></script>
+      </body>
+      </html>
+      
